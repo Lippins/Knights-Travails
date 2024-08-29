@@ -6,7 +6,7 @@ require './knight_helpers'
 
 # Example usage
 board = Board.new
-path = board.knight_moves([0, 0], [7, 7])
+path = board.knight_moves([0, 0], [7, 2])
 
 # Use the KnightHelpers module to print the path breakdown and board
 KnightHelpers.print_path_breakdown(path)

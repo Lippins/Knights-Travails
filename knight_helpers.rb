@@ -12,7 +12,9 @@ module KnightHelpers
       print "• [#{move[0].join(',')}] → "
     end
     puts "[#{path.last.join(',')}]"
-    puts "\nThe knight starts at position #{path.first} and makes its way through the board following the numbers, eventually reaching #{path.last}."
+    return unless path.length > 3
+
+    puts "\nThe knight starts at position #{path.first}\n and makes its way through the board following the numbers,\n eventually reaching #{path.last}."
   end
 
   # Function to print the visual representation of the knight's path on the board

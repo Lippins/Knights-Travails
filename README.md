@@ -24,7 +24,7 @@ Ruby installed on your machine.
 
 ### Running the Program
 
-1. Clone the Repository: First, clone the repository to your local machine.
+1. First, clone the repository to your local machine.
 
 ```bash
 git clone https://github.com/Lippins/Knights-Travails.git

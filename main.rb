@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require './node'
-require './board'
-require './knight_helpers'
+require_relative 'lib/node'
+require_relative 'lib/board'
+require_relative 'lib/knight_helpers'
 
 # Example usage
 board = Board.new
